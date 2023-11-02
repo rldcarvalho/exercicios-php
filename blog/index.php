@@ -4,4 +4,8 @@
 require_once 'system\configuration.php';
 include_once 'helpers.php';
 
-echo "<h1>Arquivo Index";
+$texto = 'texto para resumir';
+
+echo saudacao();
+echo '<hr>';
+//echo resumirTexto($texto, 50);
